@@ -26,6 +26,10 @@ document.querySelector(".check").addEventListener("click", function () {
         if (score > 1) {
             score--
             document.querySelector(".score").textContent = score
+            displayMessage(guess > secretNumber?"📈To high!":"📉To low!")
+        }
+        else{
+            displayMessage("You losy the game")
         }
     }
 
