@@ -1,0 +1,23 @@
+hmtl{
+    font-size: 60.5%;
+}
+
+body{
+    color: #fff;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+// header
+header{
+    position: relative;
+    height: 35vh;
+    border-bottom: 5px solid #64748b;
+}
+
+main{
+    height: 63vh;
+    
+}
